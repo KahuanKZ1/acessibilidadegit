@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-.root {
+:root {
     --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
 }
-
-
 
 body {
     font-size: 1rem;
@@ -26,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: #036abe;
+    color: #CB6D43;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('5ee76180e98f26c27be7752ad70a2f09.jpg');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -115,7 +113,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('5ee76180e98f26c27be7752ad70a2f09.jpg');
+    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -148,6 +146,7 @@ h2 {
     right:20px;
     z-index: 1000;
 }
+
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
@@ -178,11 +177,9 @@ h2 {
     color: var(--alto-contraste-texto);
 }
 
-
 .alto-contraste .nav-link{
     color: var(--alto-contraste-link);
 }
-
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
@@ -195,12 +192,9 @@ h2 {
     background: none;
 }
 
-
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
-
-
 .alto-contraste .fundo-galeria {
     background: none;
 }
